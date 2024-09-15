@@ -46,6 +46,11 @@ checkNumber(3.00)
 checkNumber(true)
 checkNumber('s')
 
+const checkTimeofDay = (time) => {
+    if (time < 12) {
+        console.log('Good day')
+    }
+}
 
 
 
